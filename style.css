@@ -1,0 +1,65 @@
+@font-face {
+    font-family: alata;
+    src: url(../font/Alata-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+    font-family: alata;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form-heading{
+    margin-top: 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 110px;
+    color: darkblue;
+}
+
+.actual-form form{
+    display: block;
+    margin-left: 80px;
+}
+
+input[type=text], select, textarea, input[type=date], input[type="telephone"], input[type=password], input[type=range], input[type=checkbox]{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form-row{
+    display: block;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-col-inp{
+    text-align: center;
+}
+
